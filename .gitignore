@@ -1,0 +1,6 @@
+
+.vs/
+Airline/bin/
+Airline/obj/
+*.bak
+Airline/Airline.csproj

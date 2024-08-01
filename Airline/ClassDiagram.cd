@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Airline.Aircraft">
+    <Position X="3.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAARAIAAAAAAAQCAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Aircraft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airline.AircrafManufacturer">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AircrafManufacturer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Aircraft" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Airline.BrandAircraft">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAACAAAAAAAAAAAAAAAACAAAAABAAA=</HashCode>
+      <FileName>BrandAircrafts.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Brand1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Airline.Airport">
+    <Position X="1.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAIAAAAAABABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Airport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airline.Flight">
+    <Position X="4.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACACAAEAAAAAAAIAQAACAAAAAAAAAAAEQAAAAAAAAAg=</HashCode>
+      <FileName>Flight.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Airport" />
+      <Property Name="Aircraft" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Airline.Account">
+    <Position X="9.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAEAAAAAAgAAAAAAAAAAAAAAAAQAAQAACAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AccountType" />
+      <Property Name="Purchase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Airline.AccountType">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AccountType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airline.Customer" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airline.Ticket">
+    <Position X="8.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAEAAAgAAAgAAAAAAQIAAAQAAAAAAIAAAAYgAA=</HashCode>
+      <FileName>Ticket.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Flight" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Airline.Purchase">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAQCAABAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Purchase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ticket" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Airline.CancellationInsurance">
+    <Position X="7.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CancellationInsurance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airline.Brand">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAABAAAAAAAAA=</HashCode>
+      <FileName>Brand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
